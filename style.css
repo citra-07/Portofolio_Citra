@@ -1,64 +1,67 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 body {
-    background: #f4f6f9;
-    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fdfaf6; /* cream lembut */
+    color: #5a4a42; /* coklat soft */
 }
 
 header {
-    background: #2c3e50;
-    color: white;
+    background-color: #f8ede3; /* beige soft */
     text-align: center;
-    padding: 40px 20px;
+    padding: 40px;
 }
 
 header h1 {
+    margin: 0;
     font-size: 32px;
+    color: #6d5c53;
 }
 
-header p {
-    color: #bdc3c7;
+nav {
+    text-align: center;
+    background-color: #fdf6f0; /* sangat soft */
+    padding: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #7a6c63;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #b08968; /* coklat hangat */
 }
 
 section {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
 }
 
 h2 {
-    margin-bottom: 15px;
-    color: #2c3e50;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
+    color: #6d5c53;
 }
 
-.skills ul {
-    list-style: square;
-    margin-left: 20px;
+ul {
+    padding-left: 20px;
 }
 
 .card {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.contact p,
-.education p {
-    margin-bottom: 10px;
+    background: #fef6f0; /* pink sangat lembut */
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 15px;
 }
 
 footer {
-    background: #2c3e50;
-    color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 40px;
+    background-color: #f8ede3;
+    margin-top: 30px;
+    color: #6d5c53;
 }
